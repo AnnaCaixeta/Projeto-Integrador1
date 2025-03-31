@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Ebooks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6a0dad;
+            color: white;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 10px 20px;
+            color: black;
+        }
+        .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+            background-color: #6a0dad;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        h1 {
+            font-size: 24px;
+            color: black;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 5px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 14px;
+        }
+        .search-bar button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .user-options {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logout {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #6a0dad;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-icon">&#9776;</div>
+        <h1>Mundo dos Ebooks</h1>
+        <div class="search-bar">
+            <button>&#128269;</button>
+            <input type="text" placeholder="Insira o nome do livro">
+        </div>
+        <div class="user-options">
+            <span>Seja bem-vindo!</span>
+            <span class="cart">&#128722;</span>
+            <span class="user">&#128100;</span>
+            <button class="logout">SAIR</button>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#">Ebooks</a>
+        <a href="#">Minha Biblioteca</a>
+        <a href="#">Em alta</a>
+        <a href="#">Promoções</a>
+        <a href="#">Sobre nós</a>
+        <a href="#">Fale conosco</a>
+    </nav>
+</body>
+</html>

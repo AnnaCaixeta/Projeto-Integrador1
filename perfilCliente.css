@@ -1,0 +1,61 @@
+* {
+    font-family: 'Scope One', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: #512da8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #512D9C;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+.opcoes {
+    background-color: #d9d9d9;
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.botao {
+    display: block;
+    background-color: #6B4EBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: #4E3A97;
+}
+
